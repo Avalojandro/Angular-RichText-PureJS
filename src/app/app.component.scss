@@ -1,0 +1,95 @@
+
+//Demo styles (not required)
+*{font-family: Arial, Helvetica, sans-serif;}
+
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #262626;
+}
+
+.footer{
+    font-size: small;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #262626;
+}
+
+.content{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.button-div{padding-top: 10px;}
+
+.save{
+    background-color: rgb(202, 202, 202);
+    border: 1px black solid;
+    border-color: black;
+    padding: 5px;
+    margin-top: 15px;
+    transition: ease-in 0.2s;
+    border-radius: 5px;
+}
+.save:hover{
+    background-color: white;
+}
+
+// Angular RichText styles
+.intLink { cursor: pointer; border: 0; background-color: #ffffff;}
+#toolBar1 select { font-size:10px; }
+
+#textBox {
+    width: auto;
+    height: 250px;
+    border-bottom: 5px;
+    border-top: 1px #dad6d6 solid;
+    padding: 12px;
+    overflow: scroll;
+}
+#textBox #sourceText {
+    padding: 0;
+    margin: 0;
+    min-width: 498px;
+    min-height: 200px;
+}
+
+.controls{
+    margin-right: 8px;
+    transition: ease-in 0.2s;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.controls:hover{background-color: #cecbcb;}
+
+.controls-img{
+    width: 20px;
+}
+
+.rich{
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px #dad6d6 solid;
+}
+
+#toolBar2{
+    padding-left: 6px;
+    padding-bottom: 9px;
+}
+
+.hidden{
+    display: none;
+}
+
+//This class hides the scrollbar space.
+::-webkit-scrollbar {
+    display: none;
+    }
+
+    
