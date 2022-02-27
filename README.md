@@ -2,8 +2,6 @@
 
 A functional RichText Component made for Angularjs, no installation needed to use it! <br>
 
-<br>
-
 <img src="./src/assets/rich-text.png">
 
 <br>
