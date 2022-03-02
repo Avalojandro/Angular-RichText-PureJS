@@ -11,7 +11,6 @@ A functional RichText Component made for Angularjs, no installation needed to us
 ```html
 <!-- RichText code -->
 <div class="rich">
-  <input type="hidden" name="myDoc">
   <!-- Controls -->
   <div id="toolBar2">
     <button type="button" class="intLink controls"  (click)="formatDoc('bold');"><img class="controls-img" src="../assets/bold.svg" alt="">  </button>   
